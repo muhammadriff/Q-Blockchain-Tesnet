@@ -155,10 +155,10 @@ nano docker-compose.yaml
 lalu dibagian `entrypoint` setelah `geth` tambahkan ini
 
 ```
-"--ethstats=NAMA_VALIDATOR:TESTNET_ACCESS_KEY@stats.qtestnet.org",
+"--ethstats=NAMA_VALIDATOR:qstats-testnet@stats.qtestnet.org",
 ```
 
-Untuk mendapatkan `TESTNET_ACCESS_KEY` anda bisa tanyakan ke grup discordnya
+Ganti nama validator anda bebas! `NAMA_VALIDATOR` 
 
 Setelah itu tekan <kbd>CTRL</kbd> + <kbd>x</kbd> + <kbd>Y</kbd> lalu tekan <kbd>Enter</kbd>
 
@@ -176,6 +176,30 @@ Lalu cek log
 docker-compose logs -f --tail "100"
 ```
 
-Cari nama validator anda [disini](https://stats.qtestnet.org/)
+`CTRL + F` Cari nama validator anda [![disini](https://img.shields.io/static/v1?label=HERE&message=NODE-LIST&color=9cf)](https://stats.qtestnet.org/)
 
-### Done
+
+### Perintah-Perintah Berguna!
+gunakan di direktori `testnet-public-tools/testnet-validator` | `testnet-public-tools/Root-Node` | `testnet-public-tools/testnet-fullnode`
+
+Restart node
+```
+docker-compose restart
+```
+
+stop node
+```
+docker-compose stop
+```
+
+
+### Art-Team INFO
+noted: ***art team*** here does not have any specific goals or intentions, they only collect data and share it with everyone.
+
+untuk INFO Testnet lainya Silahkan join Discord 👇
+
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ArtSy5team)
+[![Discord](https://img.shields.io/badge/discord-7289d9?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/EAKEdZU6c8)
+[![Github](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/Art-Sy5team)
+[![trakteer](https://img.shields.io/badge/trakteer.id-e31e1e?style=for-the-badge&logo=ko-fi&logoColor=white)](https://trakteer.id/Art-Sy5team/tip)
+
