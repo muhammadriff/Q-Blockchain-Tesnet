@@ -92,8 +92,8 @@ Jika berhasil maka pesan seperti ini akan tampil di layar
 ```
 Your new key was generated
 
-Public address of the key:   0xb3FF24F818b0ff6Cc50de951bcB8f86b52287dac
-Path of the secret key file: /data/keystore/UTC--2021-01-18T11-36-28.705754426Z--b3ff24f818b0ff6cc50de951bcb8f86b52287dac
+Public address of the key:   0x6B746aBE88aee41aC5c8484576bB0f3339400744
+Path of the secret key file: /data/keystore/UTC--2022-11-19T19-13-03.508785146Z--6b746abe88aee41ac5c8484576bb0f3339400744
 
 - You can share your public address with anyone. Others need it to interact with you.
 - You must NEVER share the secret key with anyone! The key controls access to your funds!
@@ -101,13 +101,13 @@ Path of the secret key file: /data/keystore/UTC--2021-01-18T11-36-28.705754426Z-
 - You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
 ```
 
-**Noted** NotedBackup wallet anda!
+**Noted** Backup wallet anda!
 
 ### CLaim faucet
 
 Pergi ke [sini](https://faucet.qtestnet.org/) lalu masukan alamat dompet yang tadi anda buat dan klaim Q Token
 
-> jika terjadi error maka ulangi terus sampai dapat, anda juga bisa klaim token yang lain
+ jika terjadi error maka ulangi terus sampai dapat, anda juga bisa klaim token yang lain
 
 ### Konfigurasi `.env`
 
