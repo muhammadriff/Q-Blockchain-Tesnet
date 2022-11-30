@@ -1,7 +1,5 @@
 # Tutorial Q-Blockchain-Tesnet
 
-## Referensi
-
 [Faucet](https://faucet.qtestnet.org/)
 
 [Leaderboard validator](https://stats.qtestnet.org/)
@@ -192,6 +190,11 @@ stop node
 docker-compose stop
 ```
 
+### Backup Wallet 
+Cara Pertama
+- jika anda menggunakan Mobaxterms silahkan ke directory folder
+<kbd>root/testnet-public-tools/testnet-validator/keystore/</kbd>
+- folder dengan awalan UTC download dan simpan
 
 ### Art-Team INFO
 noted: ***art team*** here does not have any specific goals or intentions, they only collect data and share it with everyone.
