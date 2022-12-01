@@ -10,30 +10,12 @@
 
 [discord](https://discord.gg/UMJJqE2mwx)
 
-## Spesifikasi Minimum
-| Komponen | Spesifikasi minimal |
-|----------|---------------------|
-|CPU|Intel Core i3 or i5|
-|RAM|4 GB DDR4 RAM|
-|Penyimpanan|500 GB HDD|
-|Koneksi|100 Mbit/s port|
-
 | Komponen | Spesifikasi rekomendasi |
 |----------|---------------------|
-|CPU|Intel Core i7-8700 Hexa-Core|
-|RAM|64 GB DDR4 RAM|
+|Sistem Operasi|Ubuntu 16.04 atau lebih tinggi|
+|CPU|Intel | Core i3 atau i5|
+|  RAM   |  4 GB |
 |Penyimpanan|2 x 1 TB NVMe SSD|
-|Koneksi|1 Gbit/s port|
-
-### Persyaratan perangkat lunak
-
-| Komponen | Spesifikasi minimal |
-|----------|---------------------|
-|Sistem Operasi|Ubuntu 16.04|
-
-| Komponen | Spesifikasi rekomendasi |
-|----------|---------------------|
-|Sistem Operasi|Ubuntu 18.04 atau lebih tinggi|
 
 ## Pasang dan Jalankan validator
 
