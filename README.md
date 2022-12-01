@@ -204,12 +204,15 @@ admin.addPeer('enode://1032c556fbbfe37761951a20c2b98b4031234a8f871cc79dd8ff612a3
 admin.addPeer('enode://b1d45b83e8ca1e1bb7ec71a59d3f02d67ab56175e068042e41c446f6445c8b0c677d0b34a454c1214081ea047a812156e55c35779c2c3528db84c91fde5688e5@149.102.137.123:30313')
 `
 
-Jika sudah selesai `ctrl + D` dan restart node command di bawah
+Jika sudah selesai `ctrl + D` push atau restart node command di bawah
 
 
 ### Perintah-Perintah Berguna!
 gunakan di direktori `testnet-public-tools/testnet-validator` | `testnet-public-tools/Root-Node` | `testnet-public-tools/testnet-fullnode`
 
+```
+docker-compose up -d
+```
 Restart node
 ```
 docker-compose restart
