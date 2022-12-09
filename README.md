@@ -126,7 +126,16 @@ docker run --rm -v $PWD:/data -v $PWD/config.json:/build/config.json qblockchain
 
 ### Daftarkan validator
 
+- import wallet ke metamask 
+- connect dan buat akun validator https://itn.qdev.li/
+- masukan info tentang anda dan buat nama validator
+- simpan data lanjut next step
+
 Jalankan perintah ini
+
+```
+cd testnet-public-tools/testnet-validator
+```
 
 ```
 nano docker-compose.yaml
@@ -135,10 +144,10 @@ nano docker-compose.yaml
 lalu dibagian `entrypoint` setelah `geth` tambahkan ini
 
 ```
-"--ethstats=NAMA_VALIDATOR:qstats-testnet@stats.qtestnet.org",
+"--ethstats=ITN-NAMA_VALIDATOR-4d864:qstats-testnet@stats.qtestnet.org",
 ```
 
-Ganti nama validator anda bebas! `NAMA_VALIDATOR` 
+Ganti sesuai nama validator anda! `NAMA_VALIDATOR` 
 
 Setelah itu tekan <kbd>CTRL</kbd> + <kbd>x</kbd> + <kbd>Y</kbd> lalu tekan <kbd>Enter</kbd>
 
@@ -210,6 +219,12 @@ Jika sudah selesai `ctrl + D` push atau restart node command di bawah
 ### Perintah-Perintah Berguna!
 gunakan di direktori `testnet-public-tools/testnet-validator` | `testnet-public-tools/Root-Node` | `testnet-public-tools/testnet-fullnode`
 
+check log node
+```
+docker-compose logs -f
+
+```
+push
 ```
 docker-compose up -d
 ```
@@ -217,7 +232,6 @@ Restart node
 ```
 docker-compose restart
 ```
-
 stop node
 ```
 docker-compose stop
